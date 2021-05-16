@@ -8,7 +8,7 @@ if (mysqli_connect_errno()) {
 }
 function base_url($url = null)
 {
-    $base_url = "https://apikasus1.herokuapp.com/";
+    $base_url = "https://apikasus1.herokuapp.com";
     if ($url != null) {
         return $base_url . "/" . $url;
     } else {
